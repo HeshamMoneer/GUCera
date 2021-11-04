@@ -11,7 +11,7 @@ How to build it and test it:-
 3. Open **Project.sln** in Visual studio. Right click on the project (on the right) and choose properties. Now in web tab, set the localhost port to the most suitable port for your machine.
 4. Run the IIS express server in Visual Studio, and enjoy the experience through our demo.
 
-```html
+```
 ##Contributors:-
 - Hesham Mohamed Moneer
 - Mohamed Eshiba
