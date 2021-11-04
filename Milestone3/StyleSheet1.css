@@ -1,0 +1,298 @@
+﻿
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn { display: inline-block; *display: inline; *zoom: 1; padding: 4px 10px 4px; margin-bottom: 0; font-size: 13px; line-height: 18px; color: #333333; text-align: center;text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; background-color: #f5f5f5; background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#ffffff, endColorstr=#e6e6e6, GradientType=0); border-color: #e6e6e6 #e6e6e6 #e6e6e6; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); border: 1px solid #e6e6e6; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); cursor: pointer; *margin-left: .3em; }
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e6e6e6; }
+.btn-large { padding: 9px 14px; font-size: 15px; line-height: normal; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.btn:hover { color: #333333; text-decoration: none; background-color: #e6e6e6; background-position: 0 -15px; -webkit-transition: background-position 0.1s linear; -moz-transition: background-position 0.1s linear; -ms-transition: background-position 0.1s linear; -o-transition: background-position 0.1s linear; transition: background-position 0.1s linear; }
+.btn-primary, .btn-primary:hover { text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color: #ffffff; }
+.btn-primary.active { color: rgba(255, 255, 255, 0.75); }
+.btn-primary { background-color: #4a77d4; background-image: -moz-linear-gradient(top, #6eb6de, #4a77d4); background-image: -ms-linear-gradient(top, #6eb6de, #4a77d4); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6eb6de), to(#4a77d4)); background-image: -webkit-linear-gradient(top, #6eb6de, #4a77d4); background-image: -o-linear-gradient(top, #6eb6de, #4a77d4); background-image: linear-gradient(top, #6eb6de, #4a77d4); background-repeat: repeat-x; filter: progid:dximagetransform.microsoft.gradient(startColorstr=#6eb6de, endColorstr=#4a77d4, GradientType=0);  border: 1px solid #3762bc; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] { filter: none; background-color: #4a77d4; }
+.btn-block { display:block; }
+
+* { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }
+
+html {
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: contain;
+}
+input {
+    width: 21%;
+
+    margin-bottom: 10px;
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: floralwhite;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+
+    input:focus {
+        box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+    }
+
+.div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+body {
+    width: 99%;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover;
+    background-image: url('images/back.jpg');
+    background-attachment: fixed;
+}
+
+.topnav {
+    background-color: #e6e6e6;
+    font-weight:bold ;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        .topnav a:hover {
+            background-color: #6c95eb;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #006a4e;
+            color: white;
+        }
+
+.info {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: .85em;
+    font-size: 32px;
+    color: white;
+    font-family: 'Agency FB';
+}
+
+.info2 {
+    display: block;
+    text-align: left;
+    line-height: 150%;
+    font-size: .85em;
+    font-size: 32px;
+    color: white;
+    font-family: 'Agency FB';
+}
+
+.info4 {
+    display: block;
+    text-align: left;
+    line-height: 150%;
+    font-size: .85em;
+    font-size: 32px;
+    color: black;
+    font-family: 'Agency FB';
+}
+
+.button2 {
+    padding: 10px;
+    background-color: #4a77d4;
+    border-radius: 5px;
+    color: #f2f2f2;
+    font-size: 17px;
+    width: 30%;
+    transition: background-color 0.2s linear;
+    margin: 0px 10px 10px 0px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+    .button2:hover {
+        background-color: #29b262;
+        transition: background-color 0.5s linear;
+    }
+
+.labels {
+    margin: 0px 10px 10px 0px;
+    background: rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 15px;
+    color: floralwhite;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+    width: 20%;
+}
+
+    .labels:focus {
+        box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+    }
+
+.dropDown {
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+    background: rgba(0,0,0,0.3);
+    width: 20%;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px 10px 0px;
+    color: white;
+}
+.login {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: .85em;
+    font-size: 32px;
+    color: black;
+    font-weight:bold;
+    font-family: 'Agency FB';
+    background-color: #e6e6e6;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.info3 {
+    border-radius: 5px;
+    border-color: unset;
+    border-width: 3px;
+    border-collapse:unset;
+    border-style: hidden;
+    width: 20%;
+    text-align:left;
+    background-color: inherit;
+    padding: 5px;
+    color: white;
+    font-family: 'Agency FB';
+    font-size: 23px;
+}
+
+table {
+    border-radius: 5px;
+    border-color: white;
+    border-width: 3px;
+    color: black;
+    
+    font-family: 'Agency FB';
+    font-size: 25px;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+td {
+    border-radius: 7px;
+    background-color: #6c95eb;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 3px solid;
+    border-color: #3a3b3c;
+}
+
+th {
+    font-weight: bold;
+    border-radius: 7px;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 3px solid;
+    border-color: #3a3b3c;
+}
+
+
+
+
+.ViewCourse {
+    display: block;
+    vertical-align: bottom;
+    line-height: 150%;
+    font-size: .85em;
+    font-size: 20px;
+    color: white;
+    font-family: 'Agency FB';
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s;
+    height:400px;
+    width: 800px;
+    background-color: white;
+    border-radius: 23px;
+}
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.avatar {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    margin-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
