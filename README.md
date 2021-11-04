@@ -12,6 +12,7 @@ How to build it and test it:-
 4. Run the IIS express server in Visual Studio, and enjoy the experience through our demo.
 
 ```html
-Contributors:-
-> Hesham Mohamed Moneer
+##Contributors:-
+- Hesham Mohamed Moneer
+- Mohamed Eshiba
 ```
